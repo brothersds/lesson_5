@@ -31,4 +31,4 @@ with open(r'text_task_7.json', 'w+', encoding='utf-8') as f_obj:
     json.dump([my_dict, avg_profit_dict], f_obj)
 with open(r'text_task_7.json', encoding='utf-8') as f_obj:
     data = json.load(f_obj)
-
+    print(data)
